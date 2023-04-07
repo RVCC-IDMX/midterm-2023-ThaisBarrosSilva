@@ -1,17 +1,48 @@
+/*creating the color of the page*/
+body{
+    background-color:#FAF0E6;
+}
 
+.enfase{
+    background-color:#FAF0E6;
+}
+/** creating the top pf the page*/
 .topo{
-    color: gray;
+    color:#800080;
     font-size: 46px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    background-color:lavenderblush;   
-}
+    padding:50px ;
+    text-align: center;
+    background-color: #DDA0DD;
+    border:2px solid white;
+    
 
+
+       
+}
+/***Menu***/
+a{
+    text-decoration: none;
+}
+a:link{
+color: #800080;
+font-size: 20px;
+}
+a:hover{
+   color:#800080;
+   background-color:#FFF;
+}
+/****adjusting website text****/
 p{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
 
+}
+h2,h3{
+    color: blueviolet;
+    font-size: 25px;
 }
 .enfase{
     color: red;
@@ -20,10 +51,44 @@ p{
     margin-bottom: 0%;
     margin-left: 25%;
     margin-right: 20%;
+    text-align: center;
 }
-
-
+#Ourgoal{
+    font-size: 1.1em; 
+ }
+.Unique{
+    color:blueviolet;
+    font-size: 1.2em;
+}
+/*****adjusting picture*****/
 #foto1{
-    height: 40%;
-    width: 28em;
+    height: 50%;
+    width:30em;
+    text-align:center;
+    padding: 25px;
+    max-width: 75%;
+
+
+}
+figcaption{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 15rem;
+}
+/*******adjusting li*******/
+li{
+    font-size: 1.1em;
+}
+#feedback{
+    font-size: 1.0em;
+}
+/********fooster********/
+footer{
+    color:#800080 ;
+    background-color: #DDA0DD;
+    border:2px solid;
+    text-align: center;
+    padding: 9px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
