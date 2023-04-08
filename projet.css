@@ -16,10 +16,7 @@ body{
     text-align: center;
     background-color: #DDA0DD;
     border:2px solid white;
-    
-
-
-       
+        
 }
 /***Menu***/
 a{
@@ -54,28 +51,36 @@ h2,h3{
     text-align: center;
 }
 #Ourgoal{
-    font-size: 1.1em; 
+    font-size: 1.1em;
+  
+
  }
 .Unique{
     color:blueviolet;
     font-size: 1.2em;
 }
 /*****adjusting picture*****/
+
+    
+
 #foto1{
     height: 50%;
-    width:30em;
+    width:620px;
     text-align:center;
     padding: 25px;
     max-width: 75%;
-
-
+   
 }
+
 figcaption{
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    margin-left: 15rem;
+   
+    display: flex;
+     justify-content:flex-start; 
+     align-items: center;
+     font-size: 15px;
+     margin-left: 1rem;
 }
+
 /*******adjusting li*******/
 li{
     font-size: 1.1em;
