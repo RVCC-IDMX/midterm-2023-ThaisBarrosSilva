@@ -1,4 +1,4 @@
-/*creating the color of the page*/
+/*creating the color of the page and the top*/
 body{
     background-color:#FAF0E6;
 }
@@ -6,7 +6,7 @@ body{
 .enfase{
     background-color:#FAF0E6;
 }
-/** creating the top pf the page*/
+ /** creating the top of the page**/
 .topo{
     color:#800080;
     font-size: 46px;
@@ -59,9 +59,13 @@ h2,h3{
     color:blueviolet;
     font-size: 1.2em;
 }
-/*****adjusting picture*****/
+.Clients{
+    font-size: 25px;
+    color:blueviolet;
+     text-align: center;
 
-    
+}
+/*****adjusting picture*****/
 
 #foto1{
     height: 50%;
